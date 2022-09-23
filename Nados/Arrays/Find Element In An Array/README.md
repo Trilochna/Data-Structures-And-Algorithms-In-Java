@@ -1,4 +1,4 @@
-# Find Element In An Array [Easy]
+# [Find Element In An Array [Easy]](https://nados.io/question/find-element-in-an-array)
 
 - You are given a number n, representing the size of array a. 
 - You are given n distinct numbers, representing elements of array a. 
