@@ -6,10 +6,10 @@
 - You are required to check if d number exists in the array a and at what index (0 based). If found print the index, otherwise print -1. 
 
 ## Constraints
-1 <= n <= 10^7
--10^9 <= n1, n2 
-.. n elements <= 10^9
--10^9 <= d <= 10^9
+- 1 <= n <= 10^7
+- -10^9 <= n1, n2 
+- .. n elements <= 10^9
+- -10^9 <= d <= 10^9
 
 ## Format
 
