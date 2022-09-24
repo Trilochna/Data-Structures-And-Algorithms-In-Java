@@ -4,10 +4,10 @@ Given an array of integers nums and an integer target, return indices of the two
 
 ## Constraints:
 
-2 <= nums.length <= 104
--109 <= nums[i] <= 109
--109 <= target <= 109
-Only one valid answer exists.
+- 2 <= nums.length <= 104
+- -109 <= nums[i] <= 109
+- -109 <= target <= 109
+- Only one valid answer exists.
 
 ![image](https://user-images.githubusercontent.com/97858274/192084137-051a2950-7126-4652-b018-f4de699429c6.png)
 
