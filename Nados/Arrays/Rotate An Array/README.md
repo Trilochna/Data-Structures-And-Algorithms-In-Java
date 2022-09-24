@@ -6,8 +6,8 @@
 - Rotate the array a, k times to the right (for positive values of k), and to the left for negative values of k.
 
 ##  Constraints
-0 <= n < 10^4
--10^9 <= a[i], k <= 10^9
+- 0 <= n < 10^4
+- -10^9 <= a[i], k <= 10^9
 
 ##  Format
 
