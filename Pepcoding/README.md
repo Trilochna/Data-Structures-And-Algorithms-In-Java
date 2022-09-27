@@ -1,1 +1,3 @@
-### YOU MAY FIND OTHER PEPCODING CODES IN THE NADOS FILE. 
+### FOR OTHER PEPCODING CODES REFER TO NADOS FILE !!
+
+#### These files contain similar resources.
