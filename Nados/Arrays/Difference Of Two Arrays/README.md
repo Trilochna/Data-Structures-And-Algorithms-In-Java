@@ -7,19 +7,20 @@
 - The two arrays represent digits of two numbers.
 - You are required to find the difference of two numbers represented by two arrays and print the arrays. a2 - a1
 
-Assumption - number represented by a2 is greater.
+- Assumption - number represented by a2 is greater.
 
-Constraints
-1 <= n1, n2 <= 100
-0 <= a1[i], a2[i] < 10
-number reresented by a1 is smaller than number represented by a2
+## Constraints
+- 1 <= n1, n2 <= 100
+- 0 <= a1[i], a2[i] < 10
+- number reresented by a1 is smaller than number represented by a2
 
-Format
-Input
-A number n1
-n1 number of elements line separated
-A number n2
-n2 number of elements line separated
+## Format
 
-Output
+### Input:
+- A number n1
+- n1 number of elements line separated
+- A number n2
+- n2 number of elements line separated
+
+### Output:
 A number representing difference of two numbers (a2 - a1), represented by two arrays.
