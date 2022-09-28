@@ -24,3 +24,5 @@
 
 ### Output:
 A number representing difference of two numbers (a2 - a1), represented by two arrays.
+
+![image](https://user-images.githubusercontent.com/97858274/192756628-b0699126-5d32-419c-a8a2-068583dea518.png)
