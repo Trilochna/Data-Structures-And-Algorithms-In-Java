@@ -1,5 +1,4 @@
-Inverse Of An Array
-Easy
+# [Inverse Of An Array [Easy]](https://nados.io/question/inverse-of-an-array)
 
 1. You are given a number n, representing the size of array a.
 2. You are given n numbers, representing elements of array a.
