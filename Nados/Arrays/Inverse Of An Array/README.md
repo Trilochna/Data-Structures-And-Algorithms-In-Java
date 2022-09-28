@@ -6,19 +6,19 @@
 
 For definition and constraints check this link
 https://www.pepcoding.com/resources/online-java-foundation/getting-started/inverse-of-a-number/ojquestion
-The only difference is the range of values is from 0 to n - 1, instead of 1 to n.
+- The only difference is the range of values is from 0 to n - 1, instead of 1 to n.
 
-Constraints
-0 <= n < 10^7
-For more constraints check this
+## Constraints
+- 0 <= n < 10^7
+- For more constraints check this
 https://www.pepcoding.com/resources/online-java-foundation/getting-started/inverse-of-a-number/ojquestion
-The only difference is the range of values is from 0 to n - 1, instead
-of 1 to n
+The only difference is the range of values is from 0 to n - 1, instead of 1 to n
 
-Format
-Input
+## Format
+
+### Input:
 Input is managed for you
 
-Output
+### Output:
 Output is managed for you
 
