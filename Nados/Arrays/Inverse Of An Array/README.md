@@ -22,3 +22,4 @@ Input is managed for you
 ### Output:
 Output is managed for you
 
+![image](https://user-images.githubusercontent.com/97858274/192767336-e3484036-1c45-4abd-8738-9fd065bf2eb1.png)
