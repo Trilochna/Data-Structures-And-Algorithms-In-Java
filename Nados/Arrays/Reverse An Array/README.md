@@ -5,8 +5,8 @@
 - You are required to reverse the contents of array a.
 
 ## Constraints
-0 <= n < 10^4
--10^9 <= a[i] <= 10^9
+- 0 <= n < 10^4
+- -10^9 <= a[i] <= 10^9
 
 ## Format
 
