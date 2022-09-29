@@ -5,16 +5,17 @@
 3. You are required to print all subsets of arr. Each subset should be
 on separate line. For more clarity check out sample input and output.
 
-Constraints
-1 <= n <= 10
-0 <= n1, n2, .. n elements <= 10^3
+## Constraints
+- 1 <= n <= 10
+- 0 <= n1, n2, .. n elements <= 10^3
 
-Format
-Input
-A number n
-n1
-n2
-.. n number of elements
+## Format
+
+### Input:
+- A number n
+- n1
+- n2
+- .. n number of elements
 
 Output
 [Tab separated elements of subset]
