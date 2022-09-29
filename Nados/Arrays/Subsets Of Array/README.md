@@ -17,10 +17,10 @@ on separate line. For more clarity check out sample input and output.
 - n2
 - .. n number of elements
 
-Output
-[Tab separated elements of subset]
-..
-All subsets
+### Output:
+- {Tab separated elements of subset}
+- ..
+- All subsets
 
 
 
