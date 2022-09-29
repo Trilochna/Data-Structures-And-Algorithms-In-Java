@@ -9,16 +9,17 @@
 - 0 <= n1, n2
 - .. n elements <= 10 ^9
 
-Format
-Input
-A number n
-n1
-n2
-.. n number of elements
+## Format
 
-Output
-[Tab separated elements of subarray]
-..
-All subarrays
+### Input:
+- A number n
+- n1
+- n2
+- .. n number of elements
+
+### Output:
+- {Tab separated elements of subarray}
+- ..
+- All subarrays
 
 
