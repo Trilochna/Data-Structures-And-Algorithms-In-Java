@@ -22,5 +22,6 @@ on separate line. For more clarity check out sample input and output.
 - ..
 - All subsets
 
+![image](https://user-images.githubusercontent.com/97858274/192938059-edc2966f-68ac-420b-8c23-e7266ab80b1c.png)
 
 
