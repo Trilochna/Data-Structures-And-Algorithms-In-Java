@@ -4,10 +4,10 @@
 2. You are required to find and print all the subarrays of the given array. 
 3. Each subarray should be space seperated and on a seperate lines. Refer to sample input and output.
 
-Constraints
-1 <= n <= 10
-0 <= n1, n2
- .. n elements <= 10 ^9
+## Constraints
+- 1 <= n <= 10
+- 0 <= n1, n2
+- .. n elements <= 10 ^9
 
 Format
 Input
