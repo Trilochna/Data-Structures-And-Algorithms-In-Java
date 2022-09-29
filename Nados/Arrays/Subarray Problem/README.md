@@ -22,4 +22,5 @@
 - ..
 - All subarrays
 
+![image](https://user-images.githubusercontent.com/97858274/192937544-791d16e5-1414-4919-9325-f8a428cda267.png)
 
