@@ -1,5 +1,4 @@
-Matrix Multiplication
-Easy
+# [Matrix Multiplication [Easy]](https://nados.io/question/matrix-multiplication)
 
 1. You are given a number n1, representing the number of rows of 1st matrix.
 
