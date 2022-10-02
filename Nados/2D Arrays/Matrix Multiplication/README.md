@@ -51,4 +51,3 @@ e11'' e12'' e13'' .. e21'' e22'' e23'' .. .. elements of prd array
 
 ![image](https://user-images.githubusercontent.com/97858274/193456811-26e02d0d-0961-4466-b3d1-00a327e53437.png)
 
-
