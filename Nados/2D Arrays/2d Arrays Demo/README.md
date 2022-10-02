@@ -23,3 +23,5 @@ e22..
 Output
 e11 e12 e13 ..
 e21 e22 e23 ..
+
+![image](https://user-images.githubusercontent.com/97858274/193455738-bac775c5-7029-4212-bd74-4e35a8dcf46d.png)
