@@ -1,5 +1,4 @@
-2d Arrays Demo
-Easy
+# [2d Arrays Demo [Easy]](https://nados.io/question/2d-arrays-demo)
 
 1. You are given a number n, representing the number of rows.
 2. You are given a number m, representing the number of columns.
