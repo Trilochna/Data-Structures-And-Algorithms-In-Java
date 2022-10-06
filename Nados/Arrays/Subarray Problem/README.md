@@ -12,15 +12,15 @@
 ## Format
 
 ### Input:
-- A number n
-- n1
-- n2
-- .. n number of elements
+A number n<br />
+n1<br />
+n2<br />
+.. n number of elements<br />
 
 ### Output:
-- {Tab separated elements of subarray}
-- ..
-- All subarrays
+{Tab separated elements of subarray}<br />
+..<br />
+All subarrays<br />
 
 ![image](https://user-images.githubusercontent.com/97858274/192937544-791d16e5-1414-4919-9325-f8a428cda267.png)
 
