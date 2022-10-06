@@ -17,23 +17,17 @@
 - 1 <= m2 <= 10^2
 - -10^9 <= e11', e12', .. n2 * m2 elements <= 10^9
 
+## Format
 
-Format
-Input
-A number n1
+### Input:
+A number n1<br />
+A number m1<br />
+e11 e12.. e21 e22.. .. n1 * m1 number of elements of array a1<br />
+A number n2<br />
+A number m2<br />
+e11' e12'.. e21' e22'.. .. n2 * m2 number of elements of array a2<br />
 
-A number m1
-
-e11 e12.. e21 e22.. .. n1 * m1 number of elements of array a1
-
-A number n2
-
-A number m2
-
-e11' e12'.. e21' e22'.. .. n2 * m2 number of elements of array a2
-
-
-Output
+### Output:
 e11'' e12'' e13'' .. e21'' e22'' e23'' .. .. elements of prd array
 
 ![image](https://user-images.githubusercontent.com/97858274/193456811-26e02d0d-0961-4466-b3d1-00a327e53437.png)
