@@ -17,7 +17,7 @@
 8. If the two arrays can't be multiplied, print "Invalid input".
 
 
-Constraints
+## Constraints
 1 <= n1 <= 10^2
 
 1 <= m1 <= 10^2
