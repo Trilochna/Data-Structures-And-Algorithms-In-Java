@@ -12,10 +12,10 @@
 ## Format
 
 ### Input:
-A number n
-n1
-n2
-.. n number of elements
+A number n<br />
+n1<br />
+n2<br />
+.. n number of elements<br />
 
 ### Output:
 A number representing max - min
