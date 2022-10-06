@@ -17,10 +17,10 @@
 ## Format
 
 ### Input:
-- A number n1
-- n1 number of elements line separated
-- A number n2
-- n2 number of elements line separated
+A number n1<br />
+n1 number of elements line separated<br />
+A number n2<br />
+n2 number of elements line separated<br />
 
 ### Output:
 A number representing difference of two numbers (a2 - a1), represented by two arrays.
