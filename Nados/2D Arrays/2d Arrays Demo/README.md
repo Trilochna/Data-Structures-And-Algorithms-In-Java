@@ -13,13 +13,13 @@
 ## Format
 
 ### Input
-A number n
-A number m
-e11
-e12..
-e21
-e22..
-.. n * m number of elements
+A number n<br />
+A number m<br />
+e11<br />
+e12..<br />
+e21<br />
+e22..<br />
+.. n * m number of elements<br />
 
 Output
 e11 e12 e13 ..
