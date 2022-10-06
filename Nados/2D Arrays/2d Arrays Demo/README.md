@@ -12,7 +12,7 @@
 
 ## Format
 
-### Input
+### Input:
 A number n<br />
 A number m<br />
 e11<br />
@@ -21,7 +21,7 @@ e21<br />
 e22..<br />
 .. n * m number of elements<br />
 
-### Output
+### Output:
 e11 e12 e13 ..<br />
 e21 e22 e23 ..<br />
 
