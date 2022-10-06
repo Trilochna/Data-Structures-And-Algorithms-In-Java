@@ -14,11 +14,11 @@
 ## Format
 
 ### Input:
-A number n
-n1
-n2
-.. n number of elements
-A number d
+A number n<br />
+n1<br />
+n2<br />
+.. n number of elements<br />
+A number d<br />
 
 ### Output:
 A number representing index at which d is found in array a and -1 if not found
