@@ -12,15 +12,15 @@ on separate line. For more clarity check out sample input and output.
 ## Format
 
 ### Input:
-- A number n
-- n1
-- n2
-- .. n number of elements
+A number n<br />
+n1<br />
+n2<br />
+.. n number of elements<br />
 
 ### Output:
-- {Tab separated elements of subset}
-- ..
-- All subsets
+{Tab separated elements of subset}<br />
+..<br />
+All subsets<br />
 
 ![image](https://user-images.githubusercontent.com/97858274/192938059-edc2966f-68ac-420b-8c23-e7266ab80b1c.png)
 
