@@ -12,3 +12,4 @@ If the linked list is not empty, add the new node at the beginning, i.e., before
 
 # Output
 
+![image](https://user-images.githubusercontent.com/97858274/196040826-19a7f20d-5b4b-4a18-8380-3c1027b13cad.png)
