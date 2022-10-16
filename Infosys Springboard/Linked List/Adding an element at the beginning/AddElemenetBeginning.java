@@ -50,8 +50,15 @@ class LinkedList {
 	
 	public void addAtBeginning(String data){
         //Implement your code here
-	}
-	
+        Node node = new Node(data);
+        if(this.head == null)
+        this.head=this.tail=node;
+	else
+	this.head.setNext(node);
+	this.head=node;
+
+}
+
 }
 
 class Tester{
@@ -62,5 +69,6 @@ class Tester{
 		list.addAtEnd("Venice");
 		list.addAtEnd("Munich");
 		list.addAtBeginning("Nice");
+		System.out.println("Element added !!");
 	}
 }
