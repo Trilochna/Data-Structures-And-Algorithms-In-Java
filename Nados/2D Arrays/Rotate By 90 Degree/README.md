@@ -1,4 +1,4 @@
-# [Rotate By 90 Degree [Esay]](https://www.pepcoding.com/resources/online-java-foundation/2d-arrays/rotate-by-90-degree-official/ojquestion)
+# [Rotate By 90 Degree [Easy]](https://www.pepcoding.com/resources/online-java-foundation/2d-arrays/rotate-by-90-degree-official/ojquestion)
 
 1. You are given a number n, representing the number of rows and number of columns.
 2. You are given n*n numbers, representing elements of 2d array a.
