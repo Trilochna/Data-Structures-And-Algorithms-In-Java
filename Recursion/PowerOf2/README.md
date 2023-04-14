@@ -1,4 +1,4 @@
-# PowerOf2
+# Power Of 2
 
 OUTPUT : 
 
