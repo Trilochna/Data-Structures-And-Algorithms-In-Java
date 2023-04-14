@@ -8,10 +8,12 @@ class PowerOf2 {
             return 1;
         }
         
-        int small_problem = PowerOfTwo(n-1);
-        int big_problem = 2*PowerOfTwo(n-1);
+        return 2*PowerOfTwo(n-1);
         
-        return big_problem;
+//        int small_problem = PowerOfTwo(n-1);
+//        int big_problem = 2*PowerOfTwo(n-1);
+        
+//        return big_problem;
     }
     
     public static void main(String[] args) {
