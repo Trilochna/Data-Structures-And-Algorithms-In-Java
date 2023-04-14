@@ -4,9 +4,13 @@ class PowerOf2 {
     
     static int PowerOfTwo(int n){
         
+        // base case 
+        
         if(n==0){
             return 1;
         }
+        
+        // recursive relation
         
         return 2*PowerOfTwo(n-1);
         
