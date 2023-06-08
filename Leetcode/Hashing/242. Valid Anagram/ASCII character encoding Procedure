@@ -1,0 +1,22 @@
+In the ASCII character encoding, characters are represented by numerical values. The lowercase letters 'a' to 'z' have consecutive decimal values starting from 97 for 'a' and ending with 122 for 'z'. By subtracting the value of 'a' from a lowercase letter, we can obtain the relative position of that letter in the alphabet.
+
+Here's an example to illustrate this:
+
+The character 'a' has a decimal ASCII value of 97.
+The character 'b' has a decimal ASCII value of 98.
+The character 'c' has a decimal ASCII value of 99.
+And so on, until 'z' with a decimal ASCII value of 122.
+Now, let's consider the expression s.charAt(i) - 'a' in the context of the code. Assume that s.charAt(i) returns the character 'd'.
+
+The decimal ASCII value of 'd' is 100.
+'a' has a decimal ASCII value of 97.
+Subtracting 'a' from 'd' yields 100 - 97 = 3.
+By performing this subtraction, we obtain an index of 3. This index corresponds to the character 'd' in the store array. In other words, the count of the character 'd' will be stored at store[3].
+
+Using this approach, the code effectively normalizes the characters in the range of 'a' to 'z' to indices from 0 to 25. This allows the code to utilize the store array to store the counts of each character conveniently.
+
+By subtracting the ASCII value of 'a' from a character, we obtain the relative position of that character in the alphabet, which serves as the corresponding index in the store array.
+
+
+
+
