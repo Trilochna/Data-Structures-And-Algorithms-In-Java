@@ -1,0 +1,23 @@
+The code aims to determine whether two given strings, s and t, are anagrams of each other. An anagram is a word or phrase formed by rearranging the letters of another word or phrase, using all the original letters exactly once.
+
+The code follows the following approach:
+
+The first check if (s.length() != t.length()) return false; ensures that the lengths of s and t are equal. If the lengths differ, it immediately returns false since anagrams must have the same number of characters.
+
+An integer array called store of size 26 is created. This array will be used to store the count of each character.
+
+The next step is to iterate over the characters of s and t simultaneously. The loop for (int i = 0; i < s.length(); i++) ensures that both strings are traversed character by character.
+
+Inside the loop, the code increments the count for the character s.charAt(i) in store by 1 using store[s.charAt(i) - 'a']++. The expression s.charAt(i) - 'a' converts the character to its corresponding index in the array store (0 to 25) by subtracting the ASCII value of 'a'. This step effectively increments the count for that character.
+
+Similarly, the code decrements the count for the character t.charAt(i) in store by 1 using store[t.charAt(i) - 'a']--. This step effectively cancels out the increment done in step 4.
+
+After the loop, the code enters another loop for (int n : store) to check the counts of all characters in the store array. If any count is non-zero, it means the counts of characters in s and t differ, and thus the method returns false.
+
+If all the counts are zero, the method returns true, indicating that s and t are anagrams of each other.
+
+In summary, the code uses an integer array store to count the occurrences of each character in the strings s and t. By incrementing and decrementing the counts for corresponding characters, it ensures that anagrams will have the same counts for each character. The final check of the store array confirms if the strings are anagrams or not.
+
+
+
+
