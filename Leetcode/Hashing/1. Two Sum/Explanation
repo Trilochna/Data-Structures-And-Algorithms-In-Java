@@ -1,0 +1,23 @@
+Let's go through the code and explain each element and line:
+
+1. The code begins with the declaration of a class named "Solution." This suggests that this code is part of a larger solution or program.
+
+2. Inside the class, there is a method named "twoSum" that takes two parameters: an array of integers called "nums" and an integer called "target." The method returns an array of integers.
+
+3. The line `HashMap<Integer, Integer> prevMap = new HashMap<>();` declares a new HashMap called "prevMap." The HashMap is parameterized with two integers: the first integer represents the values in the array, and the second integer represents the indices of those values.
+
+4. The next line starts a for loop that iterates over the elements of the "nums" array using the variable "i" as the loop counter.
+
+5. Inside the loop, the value at index "i" in the "nums" array is assigned to the variable "n" using the line `int n = nums[i];`.
+
+6. The line `int diff = target - n;` calculates the difference between the "target" value and the current value "n." This difference represents the value that needs to be found in the "prevMap" in order to satisfy the two-sum condition.
+
+7. The next line checks if the "prevMap" contains the "diff" value as a key using the `containsKey` method. If the condition is true, it means that the "diff" value has been previously encountered in the "nums" array.
+
+8. Inside the if statement, a new array of integers is created using the line `new int[] {prevMap.get(diff), i};`. This array contains the indices of the two elements in the "nums" array that add up to the "target" value. The first element is obtained from the "prevMap" by using the "diff" value as the key, and the second element is the current index "i."
+
+9. If the if condition is not met, it means that the "diff" value has not been encountered before. In this case, the current value "n" and its index "i" are added to the "prevMap" using the line `prevMap.put(n, i);`. This allows future iterations to find the complement of "n" in the "prevMap."
+
+10. After the for loop completes, it means that no two elements in the "nums" array add up to the "target" value. Therefore, an empty array is returned using the line `new int[] {};`.
+
+That's the explanation of each element and line of the provided code. The overall purpose of the code is to find a pair of indices in the "nums" array whose corresponding elements add up to the "target" value.
