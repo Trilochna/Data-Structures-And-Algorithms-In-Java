@@ -1,6 +1,5 @@
 # [Fitness](https://www.codechef.com/problems/FIT)
 
-
 Problem
 Chef wants to become fit for which he decided to walk to the office and return home by walking. It is known that Chef's office is 
 �
