@@ -19,7 +19,8 @@ class BinarySearch {
             } else {
                 end = mid - 1; // go to left part
             }
-            mid = (start + end) / 2;
+            mid = (start + end) / 2;         // int mid = start + (end - start)/2;
+
         }
         return -1;
     }
