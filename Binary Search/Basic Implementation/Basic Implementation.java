@@ -5,7 +5,10 @@ class BinarySearch {
         int end = size - 1;
         
         int mid = (start + end) / 2;
-        
+        // for optimization we can use the following function so that it will never go out of range : 
+
+        // int mid = start + (end - start)/2;
+         
         while(start <= end){
             if(arr[mid] == key){
                 return mid;
