@@ -1,0 +1,35 @@
+
+1. Initialize an empty `result` list to store the final lists of nodes for each level.
+2. If the `root` is null, return the empty `result` list immediately.
+3. Create a `qu` (queue) to perform level-order traversal and initialize it with the `root` node.
+4. Create a `stack` to temporarily store the lists of nodes for each level in reverse order.
+5. Start a `while` loop to traverse the tree level by level using the `qu` queue.
+6. Inside the loop, get the current size of the queue (which corresponds to the number of nodes at the current level).
+7. Create a new `levelNodes` list to store the values of nodes at the current level.
+8. Run a loop for the number of nodes at the current level (`size` times):
+   a. Dequeue a node from the front of the queue (`qu`) and add its value to the `levelNodes` list.
+   b. If the dequeued node has a left child, enqueue it into the `qu`.
+   c. If the dequeued node has a right child, enqueue it into the `qu`.
+9. After processing all nodes at the current level, push the `levelNodes` list onto the `stack`.
+10. Once the traversal is complete, start another loop to pop lists from the `stack` and add them to the `result` list. This effectively reverses the order of the level lists and achieves the desired bottom-up level order.
+11. Return the `result` list.
+
+Now, let's apply this code to the provided sample input `[3,9,20,null,null,15,7]`:
+
+1. The root node is 3.
+2. The root node's left child is 9, and its right child is 20.
+3. The left child of 20 is 15, and its right child is 7.
+
+Applying the code step by step:
+
+1. The queue starts with the root node: `[3]`.
+2. Loop 1: The current level has only the root node. `levelNodes` becomes `[3]`, which is pushed onto the stack.
+3. The queue becomes: `[]`.
+
+After completing the traversal:
+
+- The stack contains: `[ [15, 7], [9, 20], [3] ]`.
+
+Finally, popping the stack elements into the `result` list gives us: `[[15,7],[9,20],[3]]`.
+
+This arrangement represents the nodes at each level of the binary tree in reverse order, which matches the desired output.
