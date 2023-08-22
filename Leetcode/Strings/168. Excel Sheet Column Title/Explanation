@@ -1,0 +1,19 @@
+
+1. Initialize a `StringBuilder` named `result` to store the characters of the resulting Excel column title.
+
+2. Enter a loop that continues as long as `columnNumber` is greater than 0.
+
+3. Inside the loop:
+   - Calculate the offset by subtracting 1 from the `columnNumber` and then taking the modulo 26. This offset represents the remainder when the column number is divided by 26.
+   - Add the character corresponding to the offset to the `result`. This is done by casting the offset to a character and then adding it to `'A'`. This way, the numeric offset is converted to the corresponding uppercase letter (A, B, C, ...).
+   - Update `columnNumber` by subtracting 1 and then dividing it by 26. This effectively shifts the column number to the right by one position, as each iteration handles one "digit" in the Excel column title.
+
+4. After the loop, call the `reverse()` method on the `result` to reverse the order of characters. Since we calculated the characters in reverse order, this step corrects their order.
+
+5. Finally, return the `result` as a string using the `toString()` method of the `StringBuilder`.
+
+Let's walk through an example using `columnNumber = 28`:
+- In the first iteration: `columnNumber = 28`, offset = `(28 - 1) % 26 = 1`, corresponding character = `'A' + 1 = 'B'`, columnNumber updated to `(28 - 1) / 26 = 1`.
+- In the second iteration: `columnNumber = 1`, offset = `(1 - 1) % 26 = 0`, corresponding character = `'A' + 0 = 'A'`, columnNumber updated to `(1 - 1) / 26 = 0`.
+
+After the loop, the `result` contains `'BA'`, and after reversing, it becomes `'AB'`, which is the correct Excel column title for `columnNumber = 28`.
