@@ -1,2 +1,2 @@
 
-System.out.println();
+System.out.println("Trilochna");
